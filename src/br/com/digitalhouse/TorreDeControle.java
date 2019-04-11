@@ -10,8 +10,8 @@ public class TorreDeControle {
 
     //Methods
     public void voemTodos() {
-        for (int i=0;i<voadores.size();i++){
-            voadores.get(i).voar();
+        for (Voador voador : voadores){
+            voador.voar();
         }
     }
 
